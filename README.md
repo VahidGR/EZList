@@ -9,3 +9,4 @@
 - [x] Reload list
 - [x] Pagination support
 - [x] Update list items
+- [ ] Item selection callback

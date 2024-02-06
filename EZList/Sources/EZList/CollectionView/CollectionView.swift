@@ -73,8 +73,10 @@ open class EZCollectionView<T: AnyCell>: UICollectionView, AnyList where T: UICo
 				switch feed.strategy {
 					case .reload:
 						newList = feed.items
-					case .paginate, .update:
+					case .paginate:
 						newList = self.ez.feed.value + feed.items
+					case .update:
+						newList = feed.items
 				}
 				
 				// Then update UI in the main thread

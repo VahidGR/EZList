@@ -14,6 +14,7 @@
 		6640FF862B65609D007305E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6640FF852B65609D007305E1 /* Assets.xcassets */; };
 		6640FF892B65609D007305E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6640FF872B65609D007305E1 /* LaunchScreen.storyboard */; };
 		6640FF922B656304007305E1 /* EZList in Frameworks */ = {isa = PBXBuildFile; productRef = 6640FF912B656304007305E1 /* EZList */; };
+		6682B7282B72B33600AD8BD2 /* ExampleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6682B7272B72B33600AD8BD2 /* ExampleViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6640FF852B65609D007305E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6640FF882B65609D007305E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6640FF8A2B65609D007305E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6682B7272B72B33600AD8BD2 /* ExampleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6640FF7C2B65609B007305E1 /* AppDelegate.swift */,
 				6640FF7E2B65609B007305E1 /* SceneDelegate.swift */,
 				6640FF802B65609B007305E1 /* ViewController.swift */,
+				6682B7272B72B33600AD8BD2 /* ExampleViews.swift */,
 				6640FF822B65609B007305E1 /* Main.storyboard */,
 				6640FF852B65609D007305E1 /* Assets.xcassets */,
 				6640FF872B65609D007305E1 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				6640FF812B65609B007305E1 /* ViewController.swift in Sources */,
 				6640FF7D2B65609B007305E1 /* AppDelegate.swift in Sources */,
 				6640FF7F2B65609B007305E1 /* SceneDelegate.swift in Sources */,
+				6682B7282B72B33600AD8BD2 /* ExampleViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
